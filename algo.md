@@ -11,3 +11,8 @@
 
 - Add todo.
 - Delete todo.
+
+## Add todo:
+
+- When the ADD button is clicked, the todo should be grabbed from the todo field.
+- The todo should be rendered on the screen with the DELETE button.
