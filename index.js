@@ -6,7 +6,7 @@ document.querySelector(".add-button").addEventListener("click", function () {
   const todoList = document.querySelector(".todo-list");
   const todoEl = document.createElement("p");
   todoList.appendChild(todoEl);
-  todoEl.innerHTML = `${todoContent}  ${dateContent} <button id ='delete-button-${deleteID}'>DELETE</button>`;
+  todoEl.innerHTML = `${todoContent}  <span>${dateContent}</span> <button id ='delete-button-${deleteID}'>DELETE</button>`;
 
   const delButton = document.querySelector(`#delete-button-${deleteID}`);
   delButton.addEventListener("click", function () {
